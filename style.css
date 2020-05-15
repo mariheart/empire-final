@@ -1,11 +1,46 @@
 body, html {
     margin: 0px;
     padding: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Libre Caslon Text', serif;
+    background-color: white;
+}
+
+.menu {  
+    background-color: black;
+    color: white;
+    font-size: 4.5vmin; /*FONT SIZE*/
+    
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menu li {
+    text-decoration: none;
+    
+}
+
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu a:visited {
+    background-color: black;
+    color: white;
 }
 
 .header {
-    background-image: url("https://s3.amazonaws.com/assets.primagames.com/images/news/who_is_pietro_in_animal_crossing_new_horizons_header.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg");
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -15,9 +50,44 @@ body, html {
     justify-content: center;
     margin: 25px;
     padding: 5px;
-    font-size: 13vmin;
-    text-align: justify;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
     color: white;
+    font-style: italic;
+}
+
+.header_gallery {
+    background-image: url("https://www.ebrd.com/image/1395240849177.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.header_ref {
+    background-image: url("https://romaniadacia.files.wordpress.com/2014/02/tanks-in-bucharest-romania-romanian-revolution-1989-revolutia-romana-2.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 5px;
+    font-size: 11vmin; /*FONT SIZE*/
+    text-align: center;
+    color: white;
+    font-style: italic;
 }
 
 .text {
@@ -26,8 +96,37 @@ body, html {
     justify-content: center;
     margin: 50px;
     padding: 25px;
-    font-size: 5vmin;
+    font-size: 30px; /*FONT SIZE*/
     text-align: justify;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 30px; /*FONT SIZE*/
+    text-align: center;
+}
+
+.list li {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    padding: 25px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: grey;
+}
+
+.list a:visited {
+    color: black;
 }
 
 .img {
@@ -36,4 +135,33 @@ body, html {
     justify-content: center;
     margin: 25px;
     padding: 10px;
+}
+
+.img_gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*Rows of two*/
+    grid-column-gap: 10vmin;
+    grid-row-gap: 10vmin;
+    margin: 15px;
+    padding: 10px;
+}
+
+.img_items img {
+    height: 400px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.break {
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 15px; /*FONT SIZE*/
+    text-align: center;
 }
