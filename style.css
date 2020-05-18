@@ -48,7 +48,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
+    margin: 0px;
     padding: 5px;
     font-size: 11vmin; /*FONT SIZE*/
     text-align: center;
@@ -65,7 +65,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
+    margin: 0px;
     padding: 5px;
     font-size: 11vmin; /*FONT SIZE*/
     text-align: center;
@@ -82,12 +82,36 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
+    margin: 0px;
     padding: 5px;
     font-size: 11vmin; /*FONT SIZE*/
     text-align: center;
     color: white;
     font-style: italic;
+}
+
+.idk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 25px;
+}
+
+.quote {
+    margin: 10px;
+    font-size: 30px; /*FONT SIZE*/
+    text-align: justify;
+    font-style: italic;
+    color: rgb(50, 49, 53);
+}
+
+.source {
+    margin: 10px;
+    font-size: 20px; /*FONT SIZE*/
+    text-align: justify;
+    color: rgb(77, 76, 78);
 }
 
 .text {
@@ -96,8 +120,19 @@ body, html {
     justify-content: center;
     margin: 50px;
     padding: 25px;
-    font-size: 30px; /*FONT SIZE*/
+    font-size: 25px; /*FONT SIZE*/
     text-align: justify;
+}
+
+
+.cite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+    font-size: 15px; /*FONT SIZE*/
+    text-align: left;
 }
 
 .list {
@@ -137,12 +172,18 @@ body, html {
     padding: 10px;
 }
 
+.img img {
+    height: 400px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
 .img_gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /*Rows of two*/
     grid-column-gap: 10vmin;
     grid-row-gap: 10vmin;
-    margin: 15px;
+    margin: 25px;
     padding: 10px;
 }
 
@@ -152,7 +193,22 @@ body, html {
     object-fit: scale-down;
 }
 
-.break {
+.img_items a {
+    text-decoration: none;
+    color: black;
+}
+
+.img_items a:visited {
+    color: black;
+}
+
+.break_1 {
+    padding-left: 540px;
+    padding-right: 540px;
+}
+
+
+.break_2 {
     padding: 40px;
 }
 
